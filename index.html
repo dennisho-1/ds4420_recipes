@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Recipe Recommender</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="career-page">
+    <header>
+        <h1>What Makes Our Recipe Recommender Special?</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="dataset.html">Dataset</a></li>
+                <li><a href="model.html">Model Results</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Project Summary</h2>
+        <img src="https://149401384.v2.pressablecdn.com/wp-content/uploads/2025/02/ziti-chickpeas-with-sausage-and-kale-12-scaled.jpg" 
+             alt="Recipe Recommendation Concept" 
+             class="main-image" 
+             style="width: 100%; height: auto;">
+        
+        <p>
+            Across online platforms and social media, there are an overwhelming number of recipes and variations of recipes available for users to use. Navigating through these recipes can often be challenging since users have different preferences, health needs, and dietary restrictions that they adhere to. Due to indecisiveness or limited time in meal preparation, users may also resort to convenient and unhealthy food options, leading to unenjoyable and monotonous meals. To ease this selection process and accommodate one’s preferences, our project proposes a personalized recipe recommendation system that leverages machine learning to predict a user’s likely rating for a recipe they have not rated before and recommend new recipes that align with their historical preferences and dietary patterns.        </p>
+        
+        <p>
+            Our engine utilizes multilayer perceptron and collaborative filtering through a hybrid approach to focus on a user’s previously made ratings to make predictions of their ratings on new recipes, and perform recommendations accordingly. For new users, predictions will be made based on choices made by users with similar preferences as well as the ingredients in the recipes. With this hybrid approach, the food recommendation system serves to be more accurate and effective in considering both user preferences and intrinsic features of the recipes themselves. 
+        </p>
+        
+
+        <p><strong>Key Highlights of Our Recipe Recommender:</strong></p>
+        <ul>
+            <li>Hybrid model using Collaborative Filtering and MLP</li>
+            <li>Trained on 180K+ recipes and 700K+ reviews</li>
+            <li>Stratified sampling to handle data imbalance</li>
+            <li>One-hot encoding of tags and ingredients</li>
+            <li>Personalized predictions based on user behavior</li>
+        </ul>
+
+        <p>
+            Our goal was to not only improve recommendation accuracy, but also create a system that genuinely helps users enjoy better meals with less effort.
+        </p>
+    </section>
+
+    <footer>
+        <p>Explore More:</p>
+        <a href="https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions" target="_blank">View Dataset</a>
+    </footer>
+</body>
+</html>

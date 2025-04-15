@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Recipe Recommender</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            zoom: 0.9; 
+        }
+
+        section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        iframe.main-image {
+            width: 100%;
+            height: 500px; 
+        }
+    </style>
+</head>
+<body class="career-page">
+    <header>
+        <h1>Our Project Findings...</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="dataset.html">Dataset</a></li>
+                <li><a href="model.html">Model Results</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <p>
+            The following plots compare the predicted recipe ratings to the actual user ratings across four different models that we made. Each scatter plot shows how closely different predictions from a specific model (Item-Item, SVD, Simple Ensemble, and Random Forest Ensemble) align with the true ratings that was observed in the dataset. The red dashed line representing what perfect prediction would look like.
+        </p>
+        <iframe src="pred_vs_actual.html" class="main-image" style="border: none;"></iframe>
+    </section>
+
+    <footer>
+        <p>Explore More:</p>
+        <a href="https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions" target="_blank">View Dataset</a>
+    </footer>
+</body>
+</html>
